@@ -82,6 +82,12 @@ function Partners() {
                     zIndex: "-1"
                 }} />
 
+
+                <img src="Images/marque-images/WhatsApp Image 2024-12-27 at 8.37.35 PM.jpeg" alt=" PARTNERS" style={{
+                        width: "100px",
+                        height: "100px",
+                        zIndex: "-1"
+                    }} />
             </marquee>
 
 
