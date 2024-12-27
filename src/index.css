@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  /* url(../public/Images/2148231559.jpg) */
+  width: 88%;
+  margin: auto;
+  /* background-color: rgb(246, 239, 239); */
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .body {
+
+    width: 100%;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(80, 83, 164); */
+  padding: 7px;
+  background-color: rgb(246, 239, 239);
+  position: sticky;
+  top: 0;
+
+
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 0;
+  float: right;
+  margin-top: 32px;
+}
+
+.nav-item a {
+  color: Black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Playfair Display', serif;
+
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.hamb {
+  margin-left: auto;
+  margin-top: 5px;
+  float: right;
+
+}
+
+@media only screen and (min-width: 800px) {
+  .hamb {
+    display: none;
+  }
+}
+
+
+.logo {
+width:60px;
+height: 60px;
+
+}
+
+/* HAMBURGER NAV LINKS */
+
+
+
+.mobile-nav {
+  position: fixed;
+  top: 80px;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+}
+
+.mobile-nav.open {
+  left: 0;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav-item {
+  margin-bottom: 15px;
+}
+
+.mobile-nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.mobile-nav-link:hover {
+  color: black;
+  background-color: white;
+  width: 100%;
+}
+
+/* CTA SECTION */
+
+.CTA-section {
+  background: url("/public/Images/image (2).jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  /* height: 500px; */
+  /* padding-left: 35px; */
+
+}
+
+
+.cta-big-text {
+  /* margin-top: 10px; */
+  padding: 20px;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Montserrat', sans-serif;
+  /* color: #F4BB44; */
+
+  color: white;
+
+
+
+}
+
+.cta-small-text {
+  /* margin-top: 10px; */
+  /* padding: 20px; */
+  font-size: 20px;
+  line-height: 35px;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  /* color: #F4BB44; */
+  color: white;
+
+
+
+}
+
+@media only screen and (max-width: 800px) {
+  .cta-big-text {
+    font-size: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .cta-small-text {
+    font-size: 17px;
+    width: 90%;
+    font-weight: bold;
+  }
+}
+
+
+
+/* url("/public/Images/female-smiling-portrait-with-transparent-background.webp"), */
+
+
+.cta-button {
+  background-color: #880808;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+
+}
+
+
+/* SECTION THREE */
+
+.section-three {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  /* background: url("/public/Images/background.jpg"); */
+  background: url("/Images/rb_1053.png");
+  /* background-size: 250px 250px; */
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* 
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+}
+
+
+@media only screen and (max-width: 800px) {
+  .Chidubem {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.section-three-about {
+  /* width: 600px; */
+  line-height: 50px;
+  width: 85%;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #880808;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  .section-three-about {
+    font-size: 20px;
+  }
+}
